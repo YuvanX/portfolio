@@ -13,17 +13,17 @@ export default function HeaderSection() {
     {
       title: "Home",
       icon: <HomeIcon />,
-      href: "#",
+      href: "#home",
     },
     {
       title: "About",
       icon: <PersonStanding />,
-      href: "#",
+      href: "#about",
     },
     {
       title: "Projects",
       icon: <IconBulbFilled />,
-      href: "#",
+      href: "#projects",
     },
     {
       title: "Github",
@@ -37,7 +37,7 @@ export default function HeaderSection() {
     },
   ];
   return (
-    <div className="py-16 px-10 lg:px-20 flex justify-between items-center">
+    <div id="home" className="py-16 px-10 lg:px-20 flex justify-between items-center">
       <div className="font-space text-2xl font-semibold">AbhiVignesh</div>
       <div>
         <FloatingDock items={items} />
