@@ -9,7 +9,7 @@ export default function ProjectsSection() {
     {
       title: "Thoughts",
       content: (
-        <div>
+        <div className="font-space">
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Built and launched Thougths, a blogging website where you can read blogs and publish your own thoughts that others can read.
           </p>
@@ -49,7 +49,7 @@ export default function ProjectsSection() {
     {
       title: "Mars",
       content: (
-        <div>
+        <div className="font-space">
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-8">
             Mars a cool youtube clone, sharpening my frontend skills
           </p>
@@ -89,7 +89,7 @@ export default function ProjectsSection() {
     {
       title: "Dukaan",
       content: (
-        <div>
+        <div className="font-space">
           <p className="text-neutral-200 text-xs md:text-sm font-normal mb-4">
             Built dukaan UI by using React, tailwind CSS
           </p>
