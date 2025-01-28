@@ -17,9 +17,9 @@ export default function About() {
 
   return (
     <div className="mb-10">
-      <div className="h-[60rem] flex justify-between  items-center px-4">
+      <div className="h-[60rem] flex justify-between items-center px-10 lg:px-20">
         <div className="text-4xl mx-auto font-normal text-neutral-400">
-          I Built websites with
+          I Build websites with
           <FlipWords words={words} /> <br />
         </div>
       </div>

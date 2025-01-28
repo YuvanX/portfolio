@@ -1,6 +1,5 @@
 "use client";
 import {
-  useMotionValueEvent,
   useScroll,
   useTransform,
   motion,
@@ -41,7 +40,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      className="w-full bg-gradient-to-b   from-neutral-900 to-neutral-950 font-sans md:px-10 font-space"
+      className="w-full bg-gradient-to-b   from-neutral-900 to-neutral-950  md:px-10 font-space"
       ref={containerRef}
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">

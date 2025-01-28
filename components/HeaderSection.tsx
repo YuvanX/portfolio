@@ -37,7 +37,7 @@ export default function HeaderSection() {
     },
   ];
   return (
-    <div className="py-16 px-20 flex justify-between items-center">
+    <div className="py-16 px-10 lg:px-20 flex justify-between items-center">
       <div className="font-space text-2xl font-semibold">AbhiVignesh</div>
       <div>
         <FloatingDock items={items} />

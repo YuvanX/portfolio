@@ -2,7 +2,7 @@ import { BackgroundBeamsWithCollision } from "./ui/background-beams-with-collisi
 
 export default function HeroicSection() {
   return (
-    <div className="min-h-screen relative">
+    <div className="min-h-screen relative ">
       <BackgroundBeamsWithCollision>
         <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-space font-bold text-center text-white  tracking-tight">
           What&apos;s cooler than code?{" "}
