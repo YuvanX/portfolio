@@ -227,9 +227,9 @@ const CollisionMechanism = ({
   );
 };
 
-interface ExplosionProps extends React.HTMLProps<HTMLDivElement> {}
 
-const Explosion = ({ ...props }: ExplosionProps) => {
+
+const Explosion = ({ ...props }: React.HTMLProps<HTMLDivElement>) => {
   const spans = Array.from({ length: 20 }, (_, index) => ({
     id: index,
     initialX: 0,
