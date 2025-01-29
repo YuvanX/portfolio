@@ -1,6 +1,5 @@
 import React from "react";
 import { FlipWords } from "./ui/flip-words";
-import { div } from "framer-motion/client";
 import Footer from "./Footer";
 
 export default function About() {
