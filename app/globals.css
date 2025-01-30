@@ -6,7 +6,9 @@
 body {
   font-family: 'Space Grotesk',Arial, Helvetica, sans-serif;
 }
-
+html, body {
+  overflow-x: hidden;
+}
 
 @layer base {
   :root {

@@ -5,7 +5,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 
 export default function Home() {
   return (
-    <div className="h-screen overflow-y-scroll">
+    <div className=" overflow-x-hidden">
       <HeaderSection/>
       <HeroicSection/>
       <ProjectsSection/>
